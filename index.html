@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-omm-nayarit.png">
+  <link rel="shortcut icon" href="assets/img/favicon-omm-nayarit.png">
+
+  <title>Olimpiada Estatal de Matemáticas · Nayarit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sitio oficial de la Olimpiada Estatal de Matemáticas de Nayarit. Convocatoria, exámenes de años anteriores, resultados y comité organizador.">
+
+  <!-- Fuente Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container">
+    <div class="nav__brand">
+  <div class="nav__logo-badge">
+    <img
+      src="assets/img/logo-omm-nayarit.png"
+      alt="Olimpiada Mexicana de Matemáticas · Delegación Nayarit"
+      class="nav__logo-img"
+    />
+  </div>
+  <div class="nav__text">
+    <p class="nav__title">Olimpiada Estatal de Matemáticas · Nayarit</p>
+    <p class="nav__subtitle">Comité Estatal · UAN</p>
+  </div>
+</div>
+
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+        ☰
+      </button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#convocatoria">Convocatoria</a></li>
+        <li><a href="#examenes">Exámenes</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INICIO / HERO -->
+    <section id="inicio" class="section section--hero">
+      <div class="container hero">
+        <div class="hero__content">
+          <p class="hero__tag">OMM Nayarit</p>
+          <h1 class="hero__title">
+            Olimpiada Estatal de Matemáticas
+            <span>Nayarit</span>
+          </h1>
+          <p class="hero__text">
+            Sitio oficial del comité estatal de la Olimpiada Mexicana de Matemáticas en Nayarit.
+            Aquí encontrarás la convocatoria vigente, exámenes de años anteriores,
+            resultados y calendario de entrenamientos.
+          </p>
+          <div class="hero__actions">
+            <a href="#convocatoria" class="btn btn--primary">Ver Convocatoria 2025</a>
+            <a href="#examenes" class="btn btn--outline">Exámenes anteriores</a>
+          </div>
+          <p class="hero__footer">
+            Universidad Autónoma de Nayarit · Unidad Académica de Ciencias Básicas e Ingenierías
+          </p>
+        </div>
+
+        <div class="hero__panel">
+          <h2 class="panel__title">Fechas clave 2025</h2>
+          <ul class="panel__list">
+            <li>
+              <span>Publicación de convocatoria</span>
+              <span>dd/mm/2025</span>
+            </li>
+            <li>
+              <span>Examen eliminatorio estatal</span>
+              <span>dd/mm/2025</span>
+            </li>
+            <li>
+              <span>Examen semifinal estatal</span>
+              <span>dd/mm/2025</span>
+            </li>
+            <li>
+              <span>Examen final estatal</span>
+              <span>dd/mm/2025</span>
+            </li>
+          </ul>
+          <a href="#resultados" class="panel__link">Ver últimos resultados →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONVOCATORIA + RESULTADOS + CALENDARIO -->
+    <section id="convocatoria" class="section">
+      <div class="container">
+        <h2 class="section__title">Convocatoria y documentos 2025</h2>
+        <p class="section__text">
+          Aquí puedes descargar la convocatoria vigente de la Olimpiada Estatal de Matemáticas en Nayarit,
+          así como el calendario de entrenamientos y los resultados finales.
+        </p>
+
+        <div class="grid grid--3">
+          <article class="card">
+            <h3 class="card__title">Convocatoria XXVII Olimpiada Estatal 2025</h3>
+            <p class="card__text">
+              Bases, requisitos y etapas de la Olimpiada Estatal de Matemáticas 2025.
+            </p>
+            <a href="assets/pdf/Convocatoria_OMM_Nayarit_2025.pdf" target="_blank" class="btn btn--primary btn--sm">
+              Descargar PDF
+            </a>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Resultados finales 2025</h3>
+            <p class="card__text">
+              Listado de ganadores y delegación estatal que representará a Nayarit.
+            </p>
+            <a href="assets/pdf/Resultados_Finales_OMM_Nayarit_2025.pdf" target="_blank" class="btn btn--primary btn--sm">
+              Descargar PDF
+            </a>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title">Calendario de entrenamientos</h3>
+            <p class="card__text">
+              Fechas y horarios de los entrenamientos rumbo a la etapa estatal y nacional.
+            </p>
+            <a href="assets/pdf/Calendario_Entrenamientos_2025.pdf" target="_blank" class="btn btn--primary btn--sm">
+              Descargar PDF
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXÁMENES -->
+    <section id="examenes" class="section section--alt">
+        <div class="container">
+    <h2 class="section__title">Exámenes de años anteriores</h2>
+    <p class="section__text">
+      Esta sección se actualiza automáticamente a partir de las carpetas oficiales del comité en Google Drive.
+      Al subir o eliminar exámenes en las carpetas del comité, la lista se actualiza sin modificar la página.
+    </p>
+
+    <div class="exams">
+      <!-- Eliminatorios -->
+      <div class="exams__group">
+        <h3 class="exams__title">Exámenes eliminatorios</h3>
+        <ul class="exams__list js-drive-list" data-tipo="eliminatorio">
+          <li class="exams__item exams__item--loading">Cargando exámenes...</li>
+        </ul>
+      </div>
+
+      <!-- Semifinales -->
+      <div class="exams__group">
+        <h3 class="exams__title">Exámenes semifinales</h3>
+        <ul class="exams__list js-drive-list" data-tipo="semifinal">
+          <li class="exams__item exams__item--loading">Cargando exámenes...</li>
+        </ul>
+      </div>
+
+      <!-- Finales -->
+      <div class="exams__group">
+        <h3 class="exams__title">Exámenes finales</h3>
+        <ul class="exams__list js-drive-list" data-tipo="final">
+          <li class="exams__item exams__item--loading">Cargando exámenes...</li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="exams__note">
+      *Los archivos listados provienen directamente de las carpetas de Google Drive del comité. Para agregar un nuevo examen
+      solo es necesario subir el PDF correspondiente a la carpeta indicada.*
+    </p>
+  </div>
+
+        <div class="links-ext">
+          <h3 class="links-ext__title">Páginas de interés</h3>
+          <ul>
+            <li>
+              <a href="https://www.ommenlinea.org" target="_blank" rel="noopener" class="link">
+                Olimpiada Mexicana de Matemáticas (sitio nacional)
+              </a>
+            </li>
+            <li>
+              <a href="https://www.cimateuan.education" target="_blank" rel="noopener" class="link">
+                Plataforma para realizar el examen en línea
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+<section id="resultados" class="section">
+  <div class="container">
+    <h2 class="section__title">Resultados</h2>
+    <p class="section__text">
+      Lista de resultados oficiales publicados por el comité estatal. Esta sección se actualiza
+      automáticamente a partir de la carpeta de resultados en Google Drive.
+    </p>
+
+    <div class="exams__group" style="margin-top: 1.5rem;">
+      <h3 class="exams__title">Resultados por año</h3>
+      <ul class="exams__list js-drive-list" data-tipo="resultados">
+        <li class="exams__item exams__item--loading">Cargando resultados...</li>
+      </ul>
+    </div>
+
+
+  </div>
+</section>
+
+
+
+    <!-- NOSOTROS -->
+    <section id="nosotros" class="section">
+      <div class="container about">
+        <div class="about__intro">
+          <h2 class="section__title">Sobre la Olimpiada Estatal de Matemáticas · Nayarit</h2>
+          <p class="section__text">
+            La Olimpiada Estatal de Matemáticas en Nayarit es organizada por un comité de profesores y
+            académicos que colaboran de manera voluntaria, con el objetivo de descubrir y apoyar talento
+            matemático en todo el estado.
+          </p>
+
+          <div class="about__subsection">
+            <h3 class="about__title">Comité</h3>
+            <ul class="about__list">
+              <li>
+                <strong>MC. Juan Felipe Flores Robles</strong> — Delegado
+              </li>
+              <li>
+                <strong>Dr. Francisco Javier Jara Ulloa</strong> — Co-delegado
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="about__columns">
+          <div class="about__subsection">
+            <h3 class="about__title">Organizadores</h3>
+            <ul class="about__list">
+              <li>Dr. Francisco Javier Jara Ulloa</li>
+              <li>Dr. José Trinidad Ulloa Ibarra</li>
+              <li>M.C. Juan Felipe Flores Robles</li>
+              <li>M.C. Héctor Ocampo Anguiano</li>
+              <li>MC. Francia Carbajal Esparza</li>
+              <li>Dr. Pablo Eduardo Cancino Marentes</li>
+              <li>Alejandro Rico Torres</li>
+            </ul>
+          </div>
+
+          <div class="about__subsection">
+            <h3 class="about__title">Entrenadores</h3>
+            <ul class="about__list">
+              <li>M.C. Juan Felipe Flores Robles</li>
+              <li>Lic. Alejandro Rico Torres</li>
+              <li>Dr. Francisco Javier Jara Ulloa</li>
+              <li>Dr. José Alberto de la Paz</li>
+            </ul>
+          </div>
+
+ <div class="about__subsection">
+  <h3 class="about__title">Historia de delegados</h3>
+  
+  <div class="delegates">
+    <!-- Delegado actual -->
+    <article class="delegate-card">
+      <img
+        src="assets/img/delegado_juan_felipe.avif"
+        alt="M.C. Juan Felipe Flores Robles"
+        class="delegate-card__photo"
+      />
+      <div class="delegate-card__info">
+        <h4 class="delegate-card__name">M.C. Juan Felipe Flores Robles</h4>
+        <p class="delegate-card__period">2022 · Actualidad</p>
+        <p class="delegate-card__role">Delegado estatal de la Olimpiada Mexicana de Matemáticas en Nayarit.</p>
+      </div>
+    </article>
+
+    <!-- Delegado anterior -->
+    <article class="delegate-card">
+      <img
+        src="assets/img/delegado_francisco_jara.avif"
+        alt="Dr. Francisco Javier Jara Ulloa"
+        class="delegate-card__photo"
+      />
+      <div class="delegate-card__info">
+        <h4 class="delegate-card__name">Dr. Francisco Javier Jara Ulloa</h4>
+        <p class="delegate-card__period">2010 · 2022</p>
+        <p class="delegate-card__role">Delegado estatal y formador de múltiples generaciones de estudiantes.</p>
+      </div>
+    </article>
+
+    <article class="delegate-card">
+  <div class="delegate-card__avatar delegate-card__avatar--no-photo">
+    R
+  </div>
+  <div class="delegate-card__info">
+    <h4 class="delegate-card__name">Prof. Rodolfo Dávalos Mejía</h4>
+    <p class="delegate-card__period">2000 · 2010</p>
+    <p class="delegate-card__role">Impulsor del proyecto estatal en sus primeras etapas.</p>
+  </div>
+</article>
+
+
+    <article class="delegate-card">
+      <img
+        src="assets/img/delegado_oscar_parra.avif"
+        alt="M.C. Oscar Ariel Parra Ortiz"
+        class="delegate-card__photo"
+      />
+      <div class="delegate-card__info">
+        <h4 class="delegate-card__name">M.C. Oscar Ariel Parra Ortiz</h4>
+        <p class="delegate-card__period">1993 · 2000</p>
+        <p class="delegate-card__role">Primer delegado de la Olimpiada Mexicana de Matemáticas en Nayarit.</p>
+      </div>
+    </article>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--alt">
+  <div class="container contact">
+    <div>
+      <h2 class="section__title">Contacto</h2>
+      <p class="section__text">
+        Si tienes dudas sobre la participación de tu escuela, el proceso de selección o los entrenamientos,
+        puedes escribir al comité estatal mediante el siguiente formulario.
+      </p>
+      <div class="contact__info">
+        <p><strong>Correo electrónico directo:</strong></p>
+        <a href="mailto:ommnayarit@gmail.com" class="link">ommnayarit@gmail.com</a>
+      </div>
+    </div>
+
+    <form class="contact__form" id="contactForm">
+      <div class="form__field">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo">
+      </div>
+      <div class="form__field">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tunombre@correo.com">
+      </div>
+      <div class="form__field">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu duda o comentario"></textarea>
+      </div>
+      <button type="button" class="btn btn--primary btn--full" id="contactSubmit">
+        Enviar mensaje
+      </button>
+      <p class="form__note" id="contactStatus">
+        El mensaje se abrirá en tu aplicación de correo para que puedas enviarlo.
+      </p>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <!-- BOTÓN IR ARRIBA -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    ↑
+  </button>
+
+  <!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__content">
+    <p>Olimpiada Estatal de Matemáticas · Nayarit</p>
+    <p>Universidad Autónoma de Nayarit · Unidad Académica de Ciencias Básicas e Ingenierías</p>
+    <p class="footer__credits">
+      Sitio desarrollado por Indra Studio
+      <span class="footer__sep">·</span>
+      <a href="profesores.html" class="footer__link-secret">Acceso comité</a>
+    </p>
+  </div>
+</footer>
+
+
+  <!-- JS propio -->
+  <script src="script.js"></script>
+</body>
+</html>
