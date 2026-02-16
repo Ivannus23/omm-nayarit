@@ -746,9 +746,11 @@ function NosotrosSection() {
               <li>Dr. José Trinidad Ulloa Ibarra</li>
               <li>M.C. Juan Felipe Flores Robles</li>
               <li>M.C. Héctor Ocampo Anguiano</li>
-              <li>MC. Francia Carbajal Esparza</li>
+              <li>M.C. Francia Carbajal Esparza</li>
+              <li>M.C. Miriam Carolina Ortiz Torrescano</li>
               <li>Dr. Pablo Eduardo Cancino Marentes</li>
               <li>Alejandro Rico Torres</li>
+              <li>Lic. A Rico Torres</li>
             </ul>
           </div>
 
