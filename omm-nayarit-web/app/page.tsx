@@ -10,6 +10,8 @@ import {
   galeriaQuery,
 } from "@/lib/sanity.queries";
 
+export const revalidate = 60;
+
 
 const FOLDERS = {
   eliminatorio: process.env.NEXT_PUBLIC_DRIVE_FOLDER_ELIMINATORIO ?? "",
